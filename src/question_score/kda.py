@@ -1,6 +1,6 @@
 from typing import List, Optional
 from question_score.model import KDAModel
-from transformers import AutoModelForMultipleChoice, AutoTokenizer, AdamW
+from transformers import AutoModelForMultipleChoice, AutoTokenizer
 import torch
 import transformers
 import math
